@@ -1,7 +1,11 @@
+import { View, Text } from "react-native";
+
 export default function Home() {
   return (
-    <div style={{ padding: 20 }}>
-      <h1>EduCore Working 🚀</h1>
-    </div>
+    <View style={{ padding: 20 }}>
+      <Text style={{ fontSize: 24 }}>
+        EduCore Working 🚀
+      </Text>
+    </View>
   );
 }
